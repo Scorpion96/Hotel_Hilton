@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Rooms | Hilton</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="header">
+    <div class="header-logo">
+          <a href="#">Hilton</a>
+    </div>
+    <ul class="header-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="rooms.html">Rooms</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contacts.html">Contacts</a></li>
+    </ul>
+       <a class="btn" href="#">Book Online</a>
+    <div class="header_phone">
+        <img src="images/phone.png" alt="phone">
+        <span>+380953049687</span>
+    </div>
+   </div> 
+
+   <div class="rooms">
+   		<div class="rooms_item">
+   			<h3>Standard Room</h3>
+   			<img src="images/booking_1.jpg" alt="First room">
+   			<button class="button-open">Show description</button>
+   		</div>
+   		<div class="rooms_item">
+   			<h3>Family Room</h3>
+   			<img src="images/booking_2.jpg" alt="Second room">
+   			<button class="button-open">Show description</button>
+   		</div>
+   		<div class="rooms_item">
+   			<h3>Beach Front Room</h3>
+   			<img src="images/booking_3.jpg" alt="Third room">
+        <button class="button-open">Show description</button>
+   		</div>
+   </div>
+   
+    <section class="modal">
+      <div class="modal__content">
+      
+      <div class="slider">
+        <ul id="slides_room">
+          <li class="slide_room showing"></li>
+          <li class="slide_room"></li>
+          <li class="slide_room"></li>
+          <li class="slide_room"></li>
+          <li class="slide_room"></li>
+        </ul>
+        <button class="controls" id="previous">Previous</button>
+        <button class="controls" id="pause">Pause</button>
+        <button class="controls" id="next">Next</button>
+      </div>
+
+        <h3 class="room_features">Room Features:</h3>
+        <ul class="features_list">
+          <li>King Size Bed or Twin Beds </li>
+          <li>Bathroom with Bathtub </li>
+          <li>Seating Area: 2 Chairs/Sofa & Side Table </li>
+          <li>Dressing Table with Chair</li>
+          <li>Wardrobe</li>
+          <li>Terrace/Balcony with 2 Chairs</li>
+        </ul>
+
+        <a href="#" class="btn">Book now</a> 
+        <button class="modal__button button-close" type="button">Закрыть</button>
+      </div>
+    </section> 
+
+
+    <div class="page-footer positioner">
+    <div class="footer-top">
+      <h1>Hilton</h1>
+      <b>since 1945</b>
+    </div>
+    <div class="footer-bottom">
+      <div>
+        <ul>
+          <li>Our Address</li>
+          <li>Beach Str.345</li>
+          <li>67559 Miami</li>
+          <li>USA</li>
+        </ul>
+      </div>
+
+      <div>
+        <ul>
+          <li>Reservations</li>
+          <li>Tel:+380953049687</li>
+          <li>reservations(@hotelriver.com</li>
+        </ul>
+      </div>
+
+      <div>
+        <ul>
+          <li>Newsletter</li>
+          <li>
+            <label for="email">Your email address</label> <br><br>
+            <input type="text" name="email" id="email">
+          </li>
+          <li><a class="btn" href="#">Subscribe</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <img src="images/cert_1.png" alt="Trip Advisor">  
+        <img src="images/cert_2.png" alt="Commitment Excellence">
+      </div>
+    </div>
+    <p>Copyright ©2019 All rights reserved | Made by Nikita Chigaleychik</p>
+  </div>
+</div>
+
+<script src="js/rooms.js"></script>
+
+</body>
+</html>
